@@ -25,7 +25,7 @@ nvm install v20.15.1
 ```
 6. Usar la versión
 ```
-nvm install v20.15.1
+nvm use v20.15.1
 ```
 7. Verificar la versión
 ```
