@@ -1,0 +1,180 @@
+/* manejo de las características de la etiqueta body*/
+
+body {
+  font-family: 'lato', sans-serif;
+  /*background: #FEFEFD;*/
+  background: #FEFEFD; 
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  background: #034275;
+  color: #FFF;
+}
+/* manejo de las características de la etiqueta table*/
+
+section {
+  width: 100%;
+}
+
+tr {
+  border: #fa1010;
+}
+
+thead{
+  background-color: #d6d6d6;
+  
+}
+
+th, td {
+  text-align: center;
+  padding: 15px;
+  border-bottom: 1px solid rgb(162, 162, 162);
+}
+
+th:hover {
+  color: #034275;
+}
+
+
+label {
+  padding: 12px 10px;
+}
+
+
+
+.departamentos p {
+  text-align: left;
+  color: #cf2c6b;
+}
+.departamentos {
+  text-align: left;
+  
+}
+
+/* botones eliminar y editar de departamento*/
+.departamentos a button{
+  font-size: 13px;
+  text-decoration: none;
+  color: #034275;
+}
+
+.departamentos button{
+  margin-right: 10px;
+  padding: 5px 10px;
+  background-color: transparent;
+  border: 1.5px solid #ccc;
+  border-radius: 5px;
+}
+
+.departamentos button:hover{
+  background-color:#ededed;
+  border: 1.5px solid #ccc;
+  border-radius: 5px;
+}
+
+.departamentos .eliminar:hover{
+  background-color:#fd3455;
+  color: #ffffff;
+  border-radius: 5px;
+}
+.departamentos .editar:hover{
+  background-color:#4e80f4;
+  color: #ffffff;
+  border-radius: 5px;
+}
+.departamentos .eliminar a:hover{
+  border-radius: 5px;
+}
+/* botones eliminar y editar de edificio*/
+.botonesEdificio a button{
+  font-size: 13px;
+  text-decoration: none;
+  color: #034275;
+}
+
+
+.botonesEdificio{
+  text-align: center;
+}
+.botonesEdificio button{
+  margin: 10px;
+  padding: 5px 10px;
+  background-color: transparent;
+  border: 1.5px solid #ccc;
+  border-radius: 5px;
+}
+
+.botonesEdificio button:hover{
+  background-color:#ededed;
+  border: 1.5px solid #ccc;
+  border-radius: 5px;
+}
+
+.botonesEdificio .eliminar:hover{
+  background-color:#fd3455;
+  color: #ffffff;
+  border-radius: 5px;
+}
+.botonesEdificio .editar:hover{
+  background-color:#4e80f4;
+  color: #ffffff;
+  border-radius: 5px;
+}
+.miformulario{
+  width: 100%;
+}
+
+.errorlist li {
+  color: red;
+}
+
+/*Menu */
+/*
+ Tomado de http://codigoprogramacion.com/cursos/html/como-hacer-un-menu-horizontal-con-html5-y-css3.html
+ */
+ .top_menu{
+  background-color: #f0f0f0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.332);
+ }
+
+.top_menu ul
+{
+  list-style:none;
+  padding: 30px;
+  width:auto
+}
+
+.top_menu ul li
+{
+  float:right;
+  margin-left: 30px;
+  margin-bottom: 50px;
+}
+
+.top_menu ul li a
+{
+  border-radius: 10px;
+  border: #000000;
+  border-color: #000000;
+  text-decoration: none;
+  color: #034275;
+  font-size: 15px;
+}
+
+
+.top_menu ul li a:hover
+{
+  color: #797979;
+}
+
+footer{
+  margin-top: 50px;
+  text-align: center;
+  padding: 20px;
+  background:#122330;
+  color: #FFF;
+}
+
+

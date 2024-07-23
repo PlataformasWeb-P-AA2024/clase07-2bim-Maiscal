@@ -3,9 +3,8 @@
 <div id="app1">
   <nav>
 
-      [<span><router-link to="/estudiantes">Estudiantes</router-link></span>]
-      [<span><router-link to="/telefonos">Teléfonos</router-link></span>]
-      [<span><router-link to="/telefonos-dos">Teléfonos 2</router-link></span>]
+      [<span><router-link to="/edificio">Edificio</router-link></span>]
+      [<span><router-link to="/departamento">Departamento</router-link></span>]
 
   </nav>
   <router-view></router-view>
